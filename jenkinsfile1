@@ -1,0 +1,16 @@
+pipeline{
+    agent any
+    stages{
+        stage('stage1'){
+            steps{
+                echo 'Superman'
+                echo 'Kya kar rahe ho'
+            }
+        }
+        stage('stage2'){
+            steps{
+                echo "Hawa mein ud raha hu"
+            }
+        }
+    }
+}
